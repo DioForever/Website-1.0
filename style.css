@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)), url("./aincrad.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac.png");
     background-size: cover;
     background-position-y: 135px;
     background-position-x: center;
@@ -73,6 +73,10 @@ nav{
 }
 
 @media(max-width:700px){
+    .container{
+        height: 100%;
+        width: 100%;
+    }
     .nav-logo{
         flex: 100%;
         margin-bottom: 10px ;
