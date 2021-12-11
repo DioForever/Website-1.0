@@ -48,24 +48,28 @@ nav{
 }
 
 .nav-links .btn-1:hover{
+    transition: 0.8s ease;
     background:rgb(255, 217, 0);
     color:#000;
     padding: 8px 30px;
     border-radius: 4px;
 }
 .nav-links .btn-2:hover{
+    transition: 0.8s ease;
     background:rgb(255, 217, 0);
     color:#000;
     padding: 8px 30px;
     border-radius: 4px;
 }
 .nav-links .btn-3:hover{
+    transition: 0.8s ease;
     background:rgb(255, 217, 0);
     color:#000;
     padding: 8px 30px;
     border-radius: 4px;
 }
 .nav-links .btn-4:hover{
+    transition: 0.8s ease;
     background:rgb(255, 217, 0);
     color:#000;
     padding: 8px 30px;
@@ -92,12 +96,19 @@ nav{
     }
 
     .nav-links .btn-2{
-        padding: 74px;
-    
+        padding: 70px;
+        
     }
-
-    .nav-links .btn-4{
-        padding: 44px;
+    .nav-links .btn-3{
+        padding: 35px;
     }
-    
+    .container{
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac1.1.png");
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        background-position-y: 135px;
+        background-position-x: center;
+        padding: 0 8;
+    }
 }
