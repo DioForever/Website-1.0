@@ -80,13 +80,7 @@ nav{
 
 
 
-nav{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px 0;
-    background-color: black;
-}
+
 
 .container-2{
     width: 100%;
