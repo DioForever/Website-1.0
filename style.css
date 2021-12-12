@@ -108,6 +108,41 @@ nav{
 
 
 
+.rpg-text-big{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 37%;
+    color: gold;
+    margin-bottom:  2rem;
+    font-size: 100%;
+}
+
+.rpg-photo-1 img{
+    margin-left: 12.5%;
+    width: 75%;
+
+}
+
+.rpg-text{
+    font-family: 'Courier New', monospace;
+    text-transform: capitalize;
+    margin-left: 22.5%;
+    font-size: 1.8rem;
+    color: gold;
+    
+}
+
+
+.container-4{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./BackgroundP3.png");
+    background-size: cover;
+    background-position-y: 0px;
+    background-position-x: center;
+    padding: 0 8;
+}
+
+
 
 
 
@@ -153,6 +188,14 @@ nav{
         background-position-y: 135px;
         background-position-x: center;
         padding: 0 8;
+    }
+    .rpg-text{
+        font-family: 'Courier New', monospace;
+        text-transform: capitalize;
+        margin-left: 15%;
+        font-size: 1.5rem;
+        color: gold;
+        
     }
     
 }
