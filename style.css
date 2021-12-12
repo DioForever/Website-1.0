@@ -89,6 +89,24 @@ nav{
     color: yellow;
 }
 
+.container-3{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./BackgroundP3.png");
+    background-size: cover;
+    background-position-y: 0px;
+    background-position-x: center;
+    padding: 0 8;
+}
+
+.p3-logo-projects img{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
 
 
 
@@ -132,7 +150,7 @@ nav{
     .container{
         background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac1.1.png");
         width: 100%;
-        min-height: 100vh;
+        min-height: 110vh;
         background-size: cover;
         background-position-y: 135px;
         background-position-x: center;
