@@ -46,15 +46,15 @@ html {
 
 .between{
     width: 100%;
-    height: 50px;
-    background-color: #000;
+    height: 250px;
+    background: linear-gradient(rgba(89, 90, 7, 0.6),rgba(0,0,0,0.6))black;
 }
 
 
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac1.2.png");
     background-size: cover;
     background-position-y: 135px;
     background-position-x: center;
@@ -110,7 +110,7 @@ nav{
 .container-2{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./BackgroundP2.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./BackgroundP2.1.png");
     background-size: cover;
     background-position-y: 0px;
     background-position-x: center;
