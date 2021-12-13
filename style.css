@@ -180,11 +180,10 @@ nav{
 
     .nav-links{
         margin-top: 70px;
+        margin-left: 69%;
     }
 
     .nav-links a{
-
-        transform: translate(+78%, -50%); 
         display: block;
         margin: 5px;
         color: orange;
