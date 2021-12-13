@@ -95,20 +95,7 @@ nav{
 }
 
 
-.menu img{
-    margin-bottom: 50%;
-    width: 21%;
-    background-image: url("./Menu.png");
-    
-}
-.menu{
-    position: fixed;
-    margin-left: 80%;
-}
 
-.menu:hover{
-
-}
 
 
 
