@@ -31,7 +31,7 @@ html {
   
   #About {
     top: 80px;
-    background-color: gold;
+    background-color: #c8ff00;
   }
   
   #Projects {
@@ -59,7 +59,7 @@ nav{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: px 0;
+    padding: 20px 0;
     background-color: black;
 }
 
@@ -93,8 +93,6 @@ nav{
     padding: 8px 30px;
     border-radius: 4px;
 }
-
-
 
 
 
