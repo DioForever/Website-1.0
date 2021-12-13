@@ -8,6 +8,42 @@ html {
     scroll-behavior: smooth;
   }
 
+  #Sidenav a {
+    position: fixed; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: rgb(0, 0, 0); 
+    border-radius: 0 5px 5px 0; 
+  }
+  
+  #Sidenav a:hover {
+    left: 0; 
+  }
+  
+  #Home {
+    top: 20px;
+    background-color: #fbff00;
+  }
+  
+  #About {
+    top: 80px;
+    background-color: #c8ff00;
+  }
+  
+  #Projects {
+    top: 140px;
+    background-color: #f1f500;
+  }
+  #Github{
+      top: 200px;
+      background-color: gold;
+  }
+
+
 
 .container{
     width: 100%;
@@ -25,8 +61,6 @@ nav{
     flex-wrap: wrap;
     padding: 20px 0;
     background-color: black;
-    
-    
 }
 
 .nav-logo img{
@@ -34,19 +68,19 @@ nav{
 }
 
 .nav-links{
-    margin-left: 100px;
+    
     display: flex;
     flex: 1;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
 }
 
 .nav-links a{
     text-decoration: none;
     text-transform: uppercase;
-    color: gold;
+    color: orange;
     margin-left: 45px;
+    color:rgb(255, 230, 0);
     border-radius: 4px;
     padding: 8px 30px;
     
@@ -59,6 +93,23 @@ nav{
     padding: 8px 30px;
     border-radius: 4px;
 }
+
+
+.menu img{
+    margin-bottom: 50%;
+    width: 21%;
+    background-image: url("./Menu.png");
+    
+}
+.menu{
+    position: fixed;
+    margin-left: 80%;
+}
+
+.menu:hover{
+
+}
+
 
 
 
@@ -153,6 +204,11 @@ nav{
 
 
 @media(max-width:700px){
+    .menu img{
+        margin-bottom: 400%;
+        width: 40%;
+        
+    }
     .text-about{
         font-family: 'Courier New', monospace;
         font-size: 1.4rem;
@@ -177,19 +233,11 @@ nav{
         margin-bottom: 10px ;
         text-align: center;
     }
+    .nav-links .btn{
 
-    .nav-links{
-        margin-top: 70px;
-        margin-left: 69%;
-    }
-
-    .nav-links a{
+        transform: translate(+60%, -50%); 
         display: block;
-        margin: 5px;
-        color: orange;
-        
-        
-
+        margin: 10px;
 
     }
 
