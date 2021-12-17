@@ -137,6 +137,26 @@ nav{
     color: yellow;
 }
 
+
+
+.ref-MAL {
+    background: url("./github1.png");
+    margin-left: 43%;
+    margin-right: 43%;
+    width: 245px;
+    height: 245px;
+
+}
+.ref-MAL:hover{
+    transition: 0.8s ease;
+    background:url("./Github2.png");
+    padding: 8px 30px;
+    border-radius: 4px;
+}
+
+
+
+
 .container-3{
     width: 100%;
     min-height: 100vh;
@@ -165,9 +185,9 @@ nav{
 }
 
 .rpg-photo img{
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     height: 5%;
     background:rgb(255, 217, 0);
     color:#000;
@@ -188,12 +208,30 @@ nav{
 .container-4{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./BackgroundP3.1.png");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), black;
     background-size: cover;
     background-position-y: 0px;
     background-position-x: center;
     padding: 0 8;
 }
+
+.container-5{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), black;
+    background-size: cover;
+    background-position-y: 0px;
+    background-position-x: center;
+    padding: 0 8;
+}
+
+.github-logo img{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 
 
