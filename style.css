@@ -140,18 +140,11 @@ nav{
 
 
 .ref-MAL {
-    background: url("./github1.png");
-    margin-left: 43%;
-    margin-right: 43%;
-    width: 245px;
-    height: 245px;
+
 
 }
 .ref-MAL:hover{
-    transition: 0.8s ease;
-    background:url("./Github2.png");
-    padding: 8px 30px;
-    border-radius: 4px;
+
 }
 
 
