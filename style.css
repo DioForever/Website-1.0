@@ -152,6 +152,23 @@ nav{
 
 }
 
+.ref-MAL-level {
+    margin-left: 43%;
+    margin-right: 42%;
+    width: 15%;
+
+
+}
+
+.ref-MAL-level-Text{
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    font-size: 100%;
+    padding: 50px;
+
+    
+}
+
 .ref-Git{
     width: 10%;
     margin-left: 45%;
