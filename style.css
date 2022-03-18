@@ -24,7 +24,7 @@ html {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(89, 90, 7, 0.6)), url("./YellowManiac1.2.png");
     background-size: cover;
-    background-position-y: 0px;
+    background-position-y: 100px;
     background-position-x: center;
     padding: 0 8;
 }
