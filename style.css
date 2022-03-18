@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 html {
@@ -9,27 +10,6 @@ html {
   }
 
 
-
-
-  
-  #Home {
-    top: 20px;
-    background-color: #fbff00;
-  }
-  
-  #About {
-    top: 80px;
-    background-color: gold;
-  }
-  
-  #Projects {
-    top: 140px;
-    background-color: #f1f500;
-  }
-  #Github{
-      top: 200px;
-      background-color: gold;
-  }
 
 
 .between{
@@ -54,9 +34,9 @@ nav{
     align-items: center;
     flex-wrap: wrap;
     padding: 1% 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: %;
+    background-color: #000;
 }
 
 .nav-logo img{
@@ -105,8 +85,17 @@ nav{
     border-radius: 4px;
 }
 
+.btn-up{
+    position: fixed;
 
-
+    right: 2%;
+    bottom: 4%;
+	scroll-behavior: smooth;
+    background-image: url(./MoveUpBTN.png);
+    height: 5%;
+    width: 40px;
+    
+}
 
 
 
