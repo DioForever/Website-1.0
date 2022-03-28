@@ -220,6 +220,25 @@ nav{
     
 }
 
+.plugin-description{
+    font-family: 'Courier New', monospace;
+    font-size: 1.8rem;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 100px;
+    margin-right: 0;
+    color: yellow;
+}
+
+.plugin-description-title{
+    font-family: 'Courier New', monospace;
+    text-transform: capitalize;
+    margin-left: 22.5%;
+    font-size: 1.8rem;
+    color: gold;
+    margin-bottom: 1%;
+}
+
 
 .container-4{
     width: 100%;
